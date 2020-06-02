@@ -10,5 +10,10 @@ Feature: Users should be able to login
     When the user enter sales manager information
     Then the user should be able to login
 
+  Scenario: Login as a store manager
+    Given the user is on the login page
+    When the user enter store manager information
+    Then the user should be able to login
+
 
 #comment
